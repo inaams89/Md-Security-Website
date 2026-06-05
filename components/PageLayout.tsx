@@ -3,6 +3,7 @@ import Navbar from './Navbar';
 import Footer from './Footer';
 import ScrollProgress from './ScrollProgress';
 import FloatingButtons from './FloatingButtons';
+import CookieBanner from './CookieBanner';
 
 interface PageLayoutProps {
   children: React.ReactNode;
@@ -22,6 +23,7 @@ const PageLayout: React.FC<PageLayoutProps> = ({ children }) => {
       <Footer />
       <ScrollProgress />
       <FloatingButtons />
+      <CookieBanner />
     </div>
   );
 };

@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import ScrollProgress from './components/ScrollProgress';
 import FloatingButtons from './components/FloatingButtons';
+import CookieBanner from './components/CookieBanner';
 
 import Hero from './components/Hero';
 import About from './components/About';
@@ -64,6 +65,7 @@ const HomePage: React.FC = () => {
       <Footer />
       <ScrollProgress />
       <FloatingButtons />
+      <CookieBanner />
     </div>
   );
 };
