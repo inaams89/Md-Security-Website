@@ -82,7 +82,7 @@ const Footer: React.FC = () => {
                 </div>
                 <div>
                   <p className="text-[10px] text-gray-500 uppercase font-bold tracking-wider mb-1">Phone Number</p>
-                  <p className="text-[12px] font-semibold">07484549759</p>
+                  <a href="tel:07585690268" className="text-[12px] font-semibold hover:text-md-red transition-colors">07585690268</a>
                 </div>
               </li>
               <li className="flex items-start gap-4">
@@ -91,7 +91,8 @@ const Footer: React.FC = () => {
                 </div>
                 <div>
                   <p className="text-[10px] text-gray-500 uppercase font-bold tracking-wider mb-1">Email Address</p>
-                  <p className="text-[12px] font-semibold">info@mdsecurity.co.uk</p>
+                  <a href="mailto:info@md-securityservices.co.uk" className="text-[12px] font-semibold hover:text-md-red transition-colors block">info@md-securityservices.co.uk</a>
+                  <a href="mailto:hr@md-securityservices.co.uk" className="text-[12px] font-semibold hover:text-md-red transition-colors block">hr@md-securityservices.co.uk</a>
                 </div>
               </li>
               <li className="flex items-start gap-4">
@@ -100,7 +101,7 @@ const Footer: React.FC = () => {
                 </div>
                 <div>
                   <p className="text-[10px] text-gray-500 uppercase font-bold tracking-wider mb-1">Office Location</p>
-                  <p className="text-[12px] font-semibold">London, United Kingdom</p>
+                  <a href="https://www.google.com/maps/search/?api=1&query=MD+Security+Service,+1-5+Victoria+Street,+Chadderton,+Oldham,+OL9+0HH" target="_blank" rel="noopener noreferrer" className="text-[12px] font-semibold hover:text-md-red transition-colors">1-5 Victoria Street, Chadderton, Oldham, OL9 0HH</a>
                 </div>
               </li>
             </ul>

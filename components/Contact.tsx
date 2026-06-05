@@ -23,7 +23,7 @@ const Contact: React.FC = () => {
                 </div>
                 <div>
                   <p className="text-[10px] text-gray-500 uppercase font-black tracking-widest mb-1">Emergency Support</p>
-                  <p className="text-[15px] font-black tracking-tight">07484549759</p>
+                  <a href="tel:07585690268" className="text-[15px] font-black tracking-tight hover:text-md-red transition-colors">07585690268</a>
                 </div>
               </div>
 
@@ -33,7 +33,8 @@ const Contact: React.FC = () => {
                 </div>
                 <div>
                   <p className="text-[10px] text-gray-500 uppercase font-black tracking-widest mb-1">Official Inquiry</p>
-                  <p className="text-[15px] font-black tracking-tight">hr@md-securityservices.co.uk</p>
+                  <a href="mailto:hr@md-securityservices.co.uk" className="text-[13px] font-black tracking-tight hover:text-md-red transition-colors block">hr@md-securityservices.co.uk</a>
+                  <a href="mailto:info@md-securityservices.co.uk" className="text-[13px] font-black tracking-tight hover:text-md-red transition-colors block">info@md-securityservices.co.uk</a>
                 </div>
               </div>
 

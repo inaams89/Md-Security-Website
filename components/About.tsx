@@ -21,7 +21,7 @@ const About: React.FC = () => {
 
             <div className="space-y-6 text-[12px] leading-relaxed text-gray-600 font-medium">
               <p className="border-l-4 border-md-red/20 pl-6 py-1">
-                Incorporated on 30 May 2022, MD Security Services has rapidly emerged as a premier provider of professional guarding solutions in the United Kingdom. Our roots in Dagenham give us a strategic edge and a profound understanding of the local security landscape.
+                Incorporated on 30 May 2022, MD Security Services has rapidly emerged as a premier provider of professional guarding solutions in the United Kingdom. Based in Oldham, Manchester, we bring a deep understanding of the North West security landscape and the communities we serve.
               </p>
               <p>
                 We specialize in bespoke security strategies, meticulously designed to protect high-value assets and ensure the safety of both commercial and residential environments. Our commitment to excellence isn't just a promise; it's the foundation of everything we do.

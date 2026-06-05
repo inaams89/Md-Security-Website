@@ -25,15 +25,15 @@ const Navbar: React.FC = () => {
             <div className="hidden lg:flex items-center gap-6 text-[11px] font-medium tracking-wide">
               <div className="flex items-center gap-2">
                 <i className="fa-solid fa-phone text-md-red"></i>
-                <span>07484549759</span>
+                <a href="tel:07585690268" className="hover:text-md-red transition">07585690268</a>
               </div>
               <div className="flex items-center gap-2">
                 <i className="fa-solid fa-envelope text-md-red"></i>
-                <span>info@mdsecurity.co.uk</span>
+                <a href="mailto:info@md-securityservices.co.uk" className="hover:text-md-red transition">info@md-securityservices.co.uk</a>
               </div>
               <div className="flex items-center gap-2">
                 <i className="fa-solid fa-location-dot text-md-red"></i>
-                <span>London, United Kingdom</span>
+                <span>Oldham, Manchester</span>
               </div>
             </div>
           </div>
