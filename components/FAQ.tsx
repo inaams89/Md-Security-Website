@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 
 const faqs = [
   {
-    q: 'Are your security guards SIA licensed?',
-    a: 'Yes — every single officer deployed by MD Security Services holds a current SIA (Security Industry Authority) licence. This is a legal requirement in the UK and we verify all licences before deployment. You can check any SIA licence at the official SIA register.'
+    q: 'Are your security officers licensed?',
+    a: 'Yes — every officer deployed by MD Security Services holds the correct licences and certifications required for their role under UK law. We verify credentials before every deployment to ensure full compliance.'
   },
   {
     q: 'What areas do you cover?',

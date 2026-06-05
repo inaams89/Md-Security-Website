@@ -2,7 +2,7 @@ import React from 'react';
 
 const stats = [
   { number: '500+', label: 'Shifts Completed', icon: 'fa-calendar-check' },
-  { number: '100%', label: 'SIA Licensed Staff', icon: 'fa-id-badge' },
+  { number: '100%', label: 'Licensed Officers', icon: 'fa-id-badge' },
   { number: '24/7', label: 'Availability', icon: 'fa-clock' },
   { number: '5+', label: 'Areas Covered', icon: 'fa-location-dot' },
 ];

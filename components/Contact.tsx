@@ -1,11 +1,7 @@
 import React, { useState, useRef } from 'react';
 
-// ─── IMPORTANT ────────────────────────────────────────────────────────────────
-// Replace the two FORMSPREE IDs below with your actual Formspree form IDs.
-// Sign up free at https://formspree.io, create two forms, and paste the IDs here.
-const ENQUIRY_FORM_ID  = 'YOUR_ENQUIRY_FORM_ID';   // for customer enquiries
-const JOBS_FORM_ID     = 'YOUR_JOBS_FORM_ID';       // for job applications
-// ─────────────────────────────────────────────────────────────────────────────
+const ENQUIRY_FORM_ID  = 'xeewejal';
+const JOBS_FORM_ID     = 'xwvjvelj';
 
 type Tab = 'enquiry' | 'jobs';
 type Status = 'idle' | 'sending' | 'success' | 'error';

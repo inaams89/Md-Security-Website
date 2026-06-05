@@ -15,10 +15,30 @@ const Footer: React.FC = () => {
               <img src="/assets/md_logo.png" alt="MD Security Services" loading="lazy" className="h-12 w-auto object-contain brightness-0 invert" />
             </Link>
             <p className="text-gray-400 text-sm leading-relaxed">
-              SIA-licensed security guards, door supervisors and event security across Oldham, Manchester and the North West.
+              Professional security guards, door supervisors and event security across Oldham, Manchester and the North West.
             </p>
             <div className="flex items-center gap-2 text-[10px] text-gray-500 font-bold uppercase tracking-widest">
-              <i className="fa-solid fa-id-badge text-md-red"></i> SIA Licensed · DBS Checked · Insured
+              <i className="fa-solid fa-shield-halved text-md-red"></i> Licensed · DBS Checked · Insured
+            </div>
+            <div className="flex gap-3 mt-2">
+              <a
+                href="https://www.facebook.com/profile.php?id=61565068962423"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="MD Security Services on Facebook"
+                className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-md-red transition-all duration-300"
+              >
+                <i className="fa-brands fa-facebook-f text-sm"></i>
+              </a>
+              <a
+                href="https://share.google/9ePd4TClon85U6fwM"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="MD Security Services on Google"
+                className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-md-red transition-all duration-300"
+              >
+                <i className="fa-brands fa-google text-sm"></i>
+              </a>
             </div>
           </div>
 

@@ -21,7 +21,7 @@ const Oldham: React.FC = () => (
     city="Oldham"
     county="Greater Manchester"
     seoTitle="Security Guards Oldham | MD Security Services"
-    seoDescription="Professional SIA-licensed security guards, door supervisors and manned guarding in Oldham. MD Security Services is based in Oldham — local, reliable and available 24/7. Call 07585690268."
+    seoDescription="Professional security guards, door supervisors and manned guarding in Oldham. MD Security Services is based in Oldham — local, reliable and available 24/7. Call 07585690268."
     seoCanonical="https://www.md-securityservices.co.uk/areas/oldham"
     heroImage="/assets/hero-bg.jpg"
     intro="MD Security Services is headquartered in Oldham, making us the local choice for professional security across the borough — from Chadderton and Royton to Failsworth and Saddleworth."

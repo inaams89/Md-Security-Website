@@ -12,7 +12,7 @@ const FEATURES = [
   { icon: 'fa-eye', title: 'CCTV Monitoring', desc: 'We work alongside your in-store camera systems to identify and act on suspicious behaviour quickly.' },
   { icon: 'fa-handcuffs', title: 'Detentions & Arrests', desc: 'Licensed to detain shoplifters under the citizen\'s arrest provisions until police arrive.' },
   { icon: 'fa-chart-bar', title: 'Loss Prevention Reports', desc: 'Detailed incident logging and reporting to help you identify patterns and reduce shrinkage.' },
-  { icon: 'fa-id-badge', title: 'SIA Licensed', desc: 'All retail security officers hold a current SIA Security Guard licence and are fully vetted.' },
+  { icon: 'fa-id-badge', title: 'Licensed & Insured', desc: 'All retail security officers hold a required licence and are fully vetted.' },
 ];
 
 const RetailSecurity: React.FC = () => (

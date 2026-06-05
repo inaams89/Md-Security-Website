@@ -32,8 +32,8 @@ const About: React.FC = () => {
               <div className="flex items-start gap-3 p-4 bg-white rounded-xl shadow-sm border border-gray-100 hover:border-md-red/30 transition-colors group">
                 <i className="fa-solid fa-id-badge text-md-red mt-1 text-lg"></i>
                 <div>
-                  <h4 className="text-[11px] font-black uppercase text-gray-800 mb-1">100% SIA Licensed</h4>
-                  <p className="text-[10px] text-gray-500 leading-tight">Every officer holds a current SIA licence. No exceptions.</p>
+                  <h4 className="text-[11px] font-black uppercase text-gray-800 mb-1">Licensed & Insured</h4>
+                  <p className="text-[10px] text-gray-500 leading-tight">Fully licensed officers and comprehensive public liability insurance.</p>
                 </div>
               </div>
               <div className="flex items-start gap-3 p-4 bg-white rounded-xl shadow-sm border border-gray-100 hover:border-md-red/30 transition-colors group">

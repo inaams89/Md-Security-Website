@@ -26,7 +26,7 @@ const Hero: React.FC = () => {
           {/* Trust badge */}
           <div className="inline-flex items-center gap-2 bg-white/10 border border-white/20 rounded-full px-5 py-2 mb-8 backdrop-blur-sm">
             <i className="fa-solid fa-shield-halved text-md-red text-sm"></i>
-            <span className="text-[11px] font-black uppercase tracking-[0.2em] text-white/90">SIA Licensed · 24/7 · North West</span>
+            <span className="text-[11px] font-black uppercase tracking-[0.2em] text-white/90">Licensed & Insured · 24/7 · North West</span>
           </div>
 
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-black max-w-5xl mx-auto leading-[1.1] mb-6 tracking-tight drop-shadow-2xl">

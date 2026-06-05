@@ -2,10 +2,10 @@ import React from 'react';
 
 const features = [
   {
-    title: '100% SIA Licensed',
-    desc: 'Every officer deployed by MD Security holds a current SIA licence. We never cut corners on licensing — it\'s a legal requirement and your guarantee of quality.',
+    title: 'Licensed & Insured',
+    desc: 'MD Security Services is fully insured and compliant. Every officer we deploy holds the correct licences and certifications required for their role.',
     icon: 'fa-id-badge',
-    stat: '100%'
+    stat: '✓'
   },
   {
     title: 'Deployed Within 48 Hours',

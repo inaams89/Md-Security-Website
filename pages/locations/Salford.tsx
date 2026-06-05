@@ -21,11 +21,11 @@ const Salford: React.FC = () => (
     city="Salford"
     county="Greater Manchester"
     seoTitle="Security Guards Salford | MD Security Services"
-    seoDescription="Professional SIA-licensed security guards, door supervisors and corporate security in Salford. Covering Salford Quays, MediaCityUK, Eccles and the wider city. Call 07585690268."
+    seoDescription="Professional security guards, door supervisors and corporate security in Salford. Covering Salford Quays, MediaCityUK, Eccles and the wider city. Call 07585690268."
     seoCanonical="https://www.md-securityservices.co.uk/areas/salford"
     heroImage="/assets/hero-bg.jpg"
-    intro="MD Security Services provides professional SIA-licensed security across Salford — from corporate security at MediaCityUK and Salford Quays to door supervision and manned guarding across the wider city."
-    body="Salford is one of the most rapidly developing cities in the North West, driven by the huge investment at Salford Quays and MediaCityUK, as well as ongoing residential and commercial development across the city. This growth brings with it an increasing demand for professional, reliable security services. Our corporate security teams are experienced in the high-profile, media and technology environments found at MediaCityUK and Salford Quays. We also provide door supervision for Salford's growing hospitality sector, manned guarding for construction and development sites, and retail security across the city's shopping areas. From a single SIA-licensed officer to a full security team, MD Security Services delivers professional security solutions tailored to Salford's unique and diverse security requirements."
+    intro="MD Security Services provides professional security across Salford — from corporate security at MediaCityUK and Salford Quays to door supervision and manned guarding across the wider city."
+    body="Salford is one of the most rapidly developing cities in the North West, driven by the huge investment at Salford Quays and MediaCityUK, as well as ongoing residential and commercial development across the city. This growth brings with it an increasing demand for professional, reliable security services. Our corporate security teams are experienced in the high-profile, media and technology environments found at MediaCityUK and Salford Quays. We also provide door supervision for Salford's growing hospitality sector, manned guarding for construction and development sites, and retail security across the city's shopping areas. From a single licensed officer to a full security team, MD Security Services delivers professional security solutions tailored to Salford's unique and diverse security requirements."
     services={SERVICES}
     landmarks={LANDMARKS}
   />
