@@ -83,7 +83,7 @@ const ServicePageTemplate: React.FC<ServicePageProps> = ({
       {/* Features */}
       <section className="bg-slate-50 py-20">
         <div className="container mx-auto px-6">
-          <h2 className="text-[15px] font-black text-gray-900 uppercase tracking-widest text-center mb-16">
+          <h2 className="text-2xl md:text-3xl font-black text-gray-900 uppercase tracking-tight text-center mb-16">
             Why Choose MD Security For <span className="text-md-red">{title}</span>
           </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl mx-auto">
@@ -103,7 +103,7 @@ const ServicePageTemplate: React.FC<ServicePageProps> = ({
       {/* Areas Covered */}
       <section className="bg-slate-900 text-white py-20">
         <div className="container mx-auto px-6 text-center">
-          <h2 className="text-[15px] font-black uppercase tracking-widest mb-4">Areas We Cover</h2>
+          <h2 className="text-2xl md:text-3xl font-black uppercase tracking-tight mb-4">Areas We Cover</h2>
           <p className="text-gray-400 text-[12px] mb-12 max-w-lg mx-auto">
             We provide {title.toLowerCase()} services across the North West of England, including:
           </p>

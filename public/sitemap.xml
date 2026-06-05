@@ -79,4 +79,11 @@
     <priority>0.8</priority>
   </url>
 
+  <url>
+    <loc>https://www.md-securityservices.co.uk/privacy</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
 </urlset>

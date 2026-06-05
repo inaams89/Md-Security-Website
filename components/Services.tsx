@@ -40,8 +40,8 @@ const Services: React.FC = () => {
             <span className="text-md-red uppercase text-[10px] font-black tracking-[0.4em]">Our Expertise</span>
             <span className="w-8 h-[1px] bg-md-red"></span>
           </div>
-          <h2 className="text-[15px] font-black text-gray-900 uppercase tracking-widest leading-tight">
-            Comprehensive & Expert <br /> <span className="text-md-red">Security Solutions</span>
+          <h2 className="text-3xl md:text-4xl font-black text-gray-900 uppercase tracking-tight leading-tight">
+            Professional <span className="text-md-red">Security Solutions</span>
           </h2>
         </div>
 
@@ -85,6 +85,9 @@ const Services: React.FC = () => {
                   <img
                     src={s.image}
                     alt={s.title}
+                    loading="lazy"
+                    width="600"
+                    height="320"
                     className="w-full h-80 object-cover transform hover:scale-110 transition-transform duration-700 hover:rotate-1"
                   />
                 </div>

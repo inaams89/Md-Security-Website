@@ -75,7 +75,7 @@ const LocationPageTemplate: React.FC<LocationPageProps> = ({
             <span className="w-10 h-[2px] bg-md-red"></span>
             <span className="uppercase text-[10px] font-black text-md-red tracking-[0.3em]">Serving {city}</span>
           </div>
-          <h2 className="text-[15px] font-black text-gray-900 uppercase tracking-widest mb-8">
+          <h2 className="text-2xl md:text-3xl font-black text-gray-900 uppercase tracking-tight mb-8">
             MD Security Services In <span className="text-md-red">{city}</span>
           </h2>
           <p className="text-gray-700 text-lg leading-relaxed font-medium border-l-4 border-md-red/20 pl-6 mb-8">{intro}</p>
@@ -86,7 +86,7 @@ const LocationPageTemplate: React.FC<LocationPageProps> = ({
       {/* Services Grid */}
       <section className="bg-slate-50 py-20">
         <div className="container mx-auto px-6">
-          <h2 className="text-[15px] font-black text-gray-900 uppercase tracking-widest text-center mb-4">
+          <h2 className="text-2xl md:text-3xl font-black text-gray-900 uppercase tracking-tight text-center mb-4">
             Our Services In <span className="text-md-red">{city}</span>
           </h2>
           <p className="text-center text-gray-500 text-[12px] mb-14 max-w-lg mx-auto">
@@ -115,7 +115,7 @@ const LocationPageTemplate: React.FC<LocationPageProps> = ({
       {/* Landmarks / Local Knowledge */}
       <section className="bg-white py-20">
         <div className="container mx-auto px-6 max-w-4xl">
-          <h2 className="text-[15px] font-black text-gray-900 uppercase tracking-widest mb-4">
+          <h2 className="text-2xl md:text-3xl font-black text-gray-900 uppercase tracking-tight mb-4">
             Local Knowledge Of <span className="text-md-red">{city}</span>
           </h2>
           <p className="text-gray-600 text-[13px] leading-relaxed mb-10">
@@ -134,7 +134,7 @@ const LocationPageTemplate: React.FC<LocationPageProps> = ({
       {/* CTA */}
       <section className="bg-slate-900 text-white py-20">
         <div className="container mx-auto px-6 text-center">
-          <h2 className="text-[15px] font-black uppercase tracking-widest mb-4">
+          <h2 className="text-2xl md:text-3xl font-black uppercase tracking-tight mb-4">
             Need Security In {city}?
           </h2>
           <p className="text-gray-400 text-[12px] mb-10 max-w-lg mx-auto">

@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import Navbar from './Navbar';
 import Footer from './Footer';
 import ScrollProgress from './ScrollProgress';
+import FloatingButtons from './FloatingButtons';
 
 interface PageLayoutProps {
   children: React.ReactNode;
@@ -20,6 +21,7 @@ const PageLayout: React.FC<PageLayoutProps> = ({ children }) => {
       </main>
       <Footer />
       <ScrollProgress />
+      <FloatingButtons />
     </div>
   );
 };
