@@ -15,16 +15,24 @@ const Contact: React.FC = () => {
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>, formId: string) => {
     e.preventDefault();
     setStatus('sending');
-    const data = new FormData(e.currentTarget);
+    const form = e.currentTarget;
+    const data = new FormData(form);
     try {
       const res = await fetch(`https://formspree.io/f/${formId}`, {
         method: 'POST',
         body: data,
         headers: { Accept: 'application/json' },
       });
-      if (res.ok) {
+      // Parse JSON response — Formspree returns {ok: true} on success
+      // Fall back to res.ok if JSON parsing fails
+      let success = res.ok;
+      try {
+        const json = await res.json();
+        if (typeof json?.ok === 'boolean') success = json.ok;
+      } catch {}
+      if (success) {
         setStatus('success');
-        e.currentTarget.reset();
+        form.reset();
       } else {
         setStatus('error');
       }
@@ -240,10 +248,9 @@ const Contact: React.FC = () => {
                     name="cv"
                     type="file"
                     accept=".pdf,.doc,.docx"
-                    required
                     className="w-full bg-slate-50 text-slate-700 px-4 py-3 rounded-lg border border-gray-200 focus:border-md-red outline-none transition-colors text-sm file:mr-3 file:py-1 file:px-3 file:rounded file:border-0 file:text-[10px] file:font-black file:uppercase file:bg-md-red file:text-white hover:file:bg-red-700 cursor-pointer"
                   />
-                  <p className="text-[9px] text-gray-400 mt-1">PDF, DOC or DOCX — max 5MB</p>
+                  <p className="text-[9px] text-gray-400 mt-1">PDF, DOC or DOCX — optional but recommended</p>
                 </div>
                 <div>
                   <label className="block text-[10px] font-black uppercase mb-1.5 tracking-widest text-slate-700">SIA Licence Number (if held)</label>
