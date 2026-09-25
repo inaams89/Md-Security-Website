@@ -22,7 +22,7 @@ const AccessControl: React.FC = () => (
     heroImage="/assets/access-controlgatekeeping-amp-admin-1593759845-0.jpg"
     seoTitle="Access Control Security Manchester & Oldham | MD Security Services"
     seoDescription="Professional access control officers for offices, construction sites and industrial premises across Manchester and Oldham. Licensed & insured. Call MD Security on 07585690268."
-    seoCanonical="https://md-securityservices.co.uk/services/access-control"
+    seoCanonical="https://www.md-securityservices.co.uk/services/access-control"
     intro="MD Security Services provides professional manned access control for offices, industrial sites, construction sites and any premises requiring controlled entry across Manchester, Oldham and the North West."
     body="Unauthorised access to your premises is one of the most significant security risks any business faces. Whether it's protecting sensitive data, valuable stock, construction materials or simply ensuring only authorised personnel are on site, effective access control is essential. Our access control officers are trained to manage entry and exit points professionally — verifying IDs, logging visitors, managing vehicle access and communicating efficiently with your internal teams. We work with your existing systems and protocols or can help you establish new procedures. Our approach is thorough but never obstructive — keeping your site secure without disrupting the flow of legitimate business."
     features={FEATURES}

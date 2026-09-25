@@ -22,7 +22,7 @@ const MannedGuarding: React.FC = () => (
     heroImage="/assets/static.png"
     seoTitle="Manned Guarding Manchester & Oldham | MD Security Services"
     seoDescription="Professional manned guarding services for commercial premises, construction sites and industrial facilities across Manchester and Oldham. Licensed & insured. Call 07585690268."
-    seoCanonical="https://md-securityservices.co.uk/services/manned-guarding"
+    seoCanonical="https://www.md-securityservices.co.uk/services/manned-guarding"
     intro="MD Security Services provides professional static manned guarding for businesses, construction sites, retail premises and industrial facilities across Manchester, Oldham and the North West."
     body="Our manned guarding service places trained, uniformed licensed security officers at your premises to deter criminal activity, manage access control and respond to incidents. We understand that every site is different — a busy retail unit has different security needs to a construction site or a corporate office. That's why we assess every site individually and provide tailored security solutions. Our guards are trained not just in physical security, but in customer service, so they represent your business professionally at all times. From single-guard deployments to full security teams, MD Security Services delivers dependable, round-the-clock protection for your assets and people."
     features={FEATURES}

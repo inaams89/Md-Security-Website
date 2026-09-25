@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://md-securityservices.co.uk/sitemap.xml
+Sitemap: https://www.md-securityservices.co.uk/sitemap.xml

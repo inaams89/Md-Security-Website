@@ -14,7 +14,7 @@ const Privacy: React.FC = () => (
     <SEOHead
       title="Privacy Policy | MD Security Services"
       description="Privacy Policy for MD Security Services. How we collect, use and protect your personal data."
-      canonical="https://md-securityservices.co.uk/privacy"
+      canonical="https://www.md-securityservices.co.uk/privacy"
     />
 
     {/* Header */}

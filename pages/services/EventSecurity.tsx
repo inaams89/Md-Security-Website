@@ -22,7 +22,7 @@ const EventSecurity: React.FC = () => (
     heroImage="/assets/event-security.jpeg"
     seoTitle="Event Security Manchester & Oldham | MD Security Services"
     seoDescription="Professional event security for concerts, festivals, corporate events and private functions across Manchester, Oldham and the North West. Licensed & insured. Call 07585690268."
-    seoCanonical="https://md-securityservices.co.uk/services/event-security"
+    seoCanonical="https://www.md-securityservices.co.uk/services/event-security"
     intro="MD Security Services provides comprehensive event security for organisers across Manchester, Oldham and the wider North West — from intimate private gatherings to large-scale public events."
     body="Keeping your event safe requires more than just bodies on the door. It requires planning, coordination, local knowledge and the right training. Our event security teams are experienced in pre-event risk assessment, crowd management, access control, search procedures and emergency response. We work closely with event organisers, venue managers and local authorities to ensure your event complies with all relevant regulations and safety standards. Whether you need two door supervisors for a private party or a full security team for a festival, MD Security Services delivers experienced, professional cover from start to finish."
     features={FEATURES}

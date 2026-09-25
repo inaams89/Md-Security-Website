@@ -12,7 +12,7 @@ import { fileURLToPath } from 'node:url';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const distDir = path.join(__dirname, '..', 'dist');
 const templatePath = path.join(distDir, 'index.html');
-const SITE = 'https://md-securityservices.co.uk';
+const SITE = 'https://www.md-securityservices.co.uk';
 
 const routes = [
   {

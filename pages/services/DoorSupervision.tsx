@@ -22,7 +22,7 @@ const DoorSupervision: React.FC = () => (
     heroImage="/assets/req-doorsuper.png"
     seoTitle="Door Supervisors Manchester & Oldham | MD Security Services"
     seoDescription="licensed door supervisors for pubs, clubs, events and venues across Manchester, Oldham and the North West. Available 24/7. Call MD Security Services on 07585690268."
-    seoCanonical="https://md-securityservices.co.uk/services/door-supervision"
+    seoCanonical="https://www.md-securityservices.co.uk/services/door-supervision"
     intro="MD Security Services provides highly trained, licensed door supervisors for venues, hospitality businesses and events across Manchester, Oldham and the wider North West."
     body="Whether you run a busy nightclub in Manchester city centre, a bar in Oldham, or need security for a private event, our door supervisors are experienced in managing access control, crowd safety and conflict resolution. All of our door supervisors are licensed, first aid trained, and immaculately presented. We understand that your door staff are often the first impression guests have of your establishment — ours project professionalism, authority and approachability in equal measure. We work with clients on flexible contracts, whether you need door supervisors for one night or ongoing weekly cover."
     features={FEATURES}
