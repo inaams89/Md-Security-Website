@@ -6,6 +6,7 @@ import Footer from './components/Footer';
 import ScrollProgress from './components/ScrollProgress';
 import FloatingButtons from './components/FloatingButtons';
 import CookieBanner from './components/CookieBanner';
+import NotFound from './components/NotFound';
 
 import Hero from './components/Hero';
 import About from './components/About';
@@ -86,7 +87,7 @@ const App: React.FC = () => (
       <Route path="/areas/bury"       element={<Bury />} />
       <Route path="/areas/salford"    element={<Salford />} />
       <Route path="/privacy" element={<Privacy />} />
-      <Route path="*" element={<HomePage />} />
+      <Route path="*" element={<NotFound />} />
     </Routes>
   </BrowserRouter>
 );

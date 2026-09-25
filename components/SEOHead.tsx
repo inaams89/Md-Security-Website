@@ -4,9 +4,10 @@ interface SEOHeadProps {
   title: string;
   description: string;
   canonical?: string;
+  noindex?: boolean;
 }
 
-const SEOHead: React.FC<SEOHeadProps> = ({ title, description, canonical }) => {
+const SEOHead: React.FC<SEOHeadProps> = ({ title, description, canonical, noindex }) => {
   useEffect(() => {
     document.title = title;
 
@@ -32,10 +33,14 @@ const SEOHead: React.FC<SEOHeadProps> = ({ title, description, canonical }) => {
       if (canonicalTag) canonicalTag.setAttribute('href', canonical);
     }
 
+    let robotsTag = document.querySelector('meta[name="robots"]');
+    if (robotsTag) robotsTag.setAttribute('content', noindex ? 'noindex, nofollow' : 'index, follow');
+
     return () => {
       document.title = 'MD Security Services | Professional Security Guards Oldham & Manchester';
+      if (robotsTag) robotsTag.setAttribute('content', 'index, follow');
     };
-  }, [title, description, canonical]);
+  }, [title, description, canonical, noindex]);
 
   return null;
 };
