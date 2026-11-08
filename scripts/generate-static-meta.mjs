@@ -71,14 +71,14 @@ const routes = [
   },
   {
     route: '/services/manned-guarding',
-    title: 'Manned Guarding Manchester & Oldham | MD Security Services',
-    description: 'Professional manned guarding services for commercial premises, construction sites and industrial facilities across Manchester and Oldham. Licensed & insured. Call 07585690268.',
+    title: 'Manned Guarding Manchester & Oldham | 24/7 SIA Security',
+    description: 'Professional manned guarding for sites, warehouses & commercial premises in Manchester, Oldham & the North West. Licensed, insured, 24/7. Call 07585690268.',
     schema: (url, description) => serviceSchema({ url, serviceType: 'Manned Guarding', description }),
   },
   {
     route: '/services/event-security',
-    title: 'Event Security Manchester & Oldham | MD Security Services',
-    description: 'Professional event security for concerts, festivals, corporate events and private functions across Manchester, Oldham and the North West. Licensed & insured. Call 07585690268.',
+    title: 'Event Security Manchester & Oldham | SIA-Licensed Guards',
+    description: 'SIA-licensed event security for concerts, festivals & private functions in Manchester, Oldham & the North West. Insured, experienced, 24/7. Call 07585690268.',
     schema: (url, description) => serviceSchema({ url, serviceType: 'Event Security', description }),
   },
   {
@@ -107,8 +107,8 @@ const routes = [
   },
   {
     route: '/areas/oldham',
-    title: 'Security Guards Oldham | MD Security Services',
-    description: 'Professional security guards, door supervisors and manned guarding in Oldham. MD Security Services is based in Oldham — local, reliable and available 24/7. Call 07585690268.',
+    title: 'Security Services Oldham | 24/7 SIA-Licensed Guards',
+    description: 'Oldham-based SIA-licensed security guards, door supervisors & manned guarding. Fast response, fully insured, available 24/7. Call 07585690268 for a free quote.',
     schema: (url, description) => areaSchema({ url, city: 'Oldham', description }),
   },
   {

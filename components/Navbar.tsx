@@ -55,7 +55,7 @@ const Navbar: React.FC = () => {
               </div>
               <div className="flex items-center gap-2">
                 <i className="fa-solid fa-location-dot text-md-red"></i>
-                <span>Oldham, Manchester</span>
+                <span>Manchester, Oldham</span>
               </div>
             </div>
           </div>

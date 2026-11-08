@@ -37,7 +37,7 @@ const SEOHead: React.FC<SEOHeadProps> = ({ title, description, canonical, noinde
     if (robotsTag) robotsTag.setAttribute('content', noindex ? 'noindex, nofollow' : 'index, follow');
 
     return () => {
-      document.title = 'MD Security Services | Professional Security Guards Oldham & Manchester';
+      document.title = 'MD Security Services | Professional Security Guards Manchester & Oldham';
       if (robotsTag) robotsTag.setAttribute('content', 'index, follow');
     };
   }, [title, description, canonical, noindex]);
