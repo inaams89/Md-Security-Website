@@ -3,6 +3,17 @@ import { Link } from 'react-router-dom';
 import PageLayout from './PageLayout';
 import SEOHead from './SEOHead';
 
+interface Faq {
+  q: string;
+  a: string;
+}
+
+interface Section {
+  heading: string;
+  paragraphs?: string[];
+  bullets?: { title: string; text: string }[];
+}
+
 interface Feature {
   icon: string;
   title: string;
@@ -20,6 +31,9 @@ interface ServicePageProps {
   body: string;
   features: Feature[];
   areas: string[];
+  heroSuffix?: string;
+  sections?: Section[];
+  faqs?: Faq[];
 }
 
 const ServicePageTemplate: React.FC<ServicePageProps> = ({
@@ -33,6 +47,9 @@ const ServicePageTemplate: React.FC<ServicePageProps> = ({
   body,
   features,
   areas,
+  heroSuffix = 'In Manchester & The North West',
+  sections = [],
+  faqs = [],
 }) => {
   return (
     <PageLayout>
@@ -56,7 +73,7 @@ const ServicePageTemplate: React.FC<ServicePageProps> = ({
             <span className="text-white">{title}</span>
           </div>
           <h1 className="text-4xl md:text-6xl font-black uppercase tracking-tight max-w-3xl leading-tight mb-6">
-            {title} <br /><span className="text-md-red">In Manchester & The North West</span>
+            {title} <br /><span className="text-md-red">{heroSuffix}</span>
           </h1>
           <p className="text-gray-300 text-base max-w-xl leading-relaxed mb-10">{subtitle}</p>
           <Link
@@ -80,6 +97,31 @@ const ServicePageTemplate: React.FC<ServicePageProps> = ({
         </div>
       </section>
 
+      {/* Extra content sections */}
+      {sections.length > 0 && (
+        <section className="bg-white pb-20">
+          <div className="container mx-auto px-6 max-w-4xl space-y-12">
+            {sections.map((sec, i) => (
+              <div key={i}>
+                <h2 className="text-2xl font-black text-gray-900 uppercase tracking-tight mb-5">{sec.heading}</h2>
+                {sec.paragraphs?.map((para, j) => (
+                  <p key={j} className="text-gray-600 text-[14px] leading-relaxed mb-4">{para}</p>
+                ))}
+                {sec.bullets && (
+                  <ul className="space-y-4">
+                    {sec.bullets.map((b, j) => (
+                      <li key={j} className="text-gray-600 text-[14px] leading-relaxed">
+                        <strong className="text-gray-900">{b.title}</strong> {b.text}
+                      </li>
+                    ))}
+                  </ul>
+                )}
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
+
       {/* Features */}
       <section className="bg-slate-50 py-20">
         <div className="container mx-auto px-6">
@@ -99,6 +141,25 @@ const ServicePageTemplate: React.FC<ServicePageProps> = ({
           </div>
         </div>
       </section>
+
+      {/* FAQs */}
+      {faqs.length > 0 && (
+        <section className="bg-white py-20">
+          <div className="container mx-auto px-6 max-w-4xl">
+            <h2 className="text-2xl md:text-3xl font-black text-gray-900 uppercase tracking-tight mb-10">
+              Frequently Asked Questions
+            </h2>
+            <div className="space-y-8">
+              {faqs.map((f, i) => (
+                <div key={i}>
+                  <h3 className="text-[15px] font-black text-gray-900 mb-2">{f.q}</h3>
+                  <p className="text-gray-600 text-[14px] leading-relaxed">{f.a}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* Areas Covered */}
       <section className="bg-slate-900 text-white py-20">

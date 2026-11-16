@@ -62,6 +62,10 @@ function areaSchema({ url, city, description }) {
   };
 }
 
+const constructionFaqs = JSON.parse(
+  fs.readFileSync(path.join(__dirname, '..', 'data', 'construction-faqs.json'), 'utf8')
+);
+
 const routes = [
   {
     route: '/services/door-supervision',
@@ -98,6 +102,23 @@ const routes = [
     title: 'Corporate Security Manchester & Salford | MD Security Services',
     description: 'Professional corporate security for offices, business parks and commercial premises across Manchester, Salford Quays and the North West. Licensed & insured. Call 07585690268.',
     schema: (url, description) => serviceSchema({ url, serviceType: 'Corporate Security', description }),
+  },
+  {
+    route: '/services/construction-site-security',
+    title: 'Construction Site Security Oldham & Manchester | MD Security',
+    description: 'SIA-licensed construction site security guards for sites across Oldham, Manchester and Greater Manchester. Gatehouse, patrols and 24/7 cover. Call 07585690268.',
+    schema: (url, description) => [
+      serviceSchema({ url, serviceType: 'Construction Site Security', description }),
+      {
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: constructionFaqs.map((f) => ({
+          '@type': 'Question',
+          name: f.q,
+          acceptedAnswer: { '@type': 'Answer', text: f.a },
+        })),
+      },
+    ],
   },
   {
     route: '/areas/manchester',

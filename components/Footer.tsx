@@ -78,6 +78,7 @@ const Footer: React.FC = () => {
                 { label: 'Event Security', path: '/services/event-security' },
                 { label: 'Retail Security', path: '/services/retail-security' },
                 { label: 'Access Control', path: '/services/access-control' },
+                { label: 'Construction Security', path: '/services/construction-site-security' },
               ].map((s) => (
                 <li key={s.label}>
                   <Link to={s.path} className="text-gray-400 hover:text-white transition-colors text-sm flex items-center gap-2 group">

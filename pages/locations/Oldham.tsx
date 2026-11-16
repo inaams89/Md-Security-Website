@@ -8,6 +8,7 @@ const SERVICES = [
   { name: 'Retail Security', icon: 'fa-store', path: '/services/retail-security' },
   { name: 'Access Control', icon: 'fa-key', path: '/services/access-control' },
   { name: 'Corporate Security', icon: 'fa-building-columns', path: '/services/corporate-security' },
+  { name: 'Construction Security', icon: 'fa-helmet-safety', path: '/services/construction-site-security' },
 ];
 
 const LANDMARKS = [

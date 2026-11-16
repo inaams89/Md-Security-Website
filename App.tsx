@@ -25,6 +25,7 @@ import EventSecurity from './pages/services/EventSecurity';
 import RetailSecurity from './pages/services/RetailSecurity';
 import AccessControl from './pages/services/AccessControl';
 import CorporateSecurity from './pages/services/CorporateSecurity';
+import ConstructionSecurity from './pages/services/ConstructionSecurity';
 
 import Privacy from './pages/Privacy';
 import Manchester from './pages/locations/Manchester';
@@ -81,6 +82,7 @@ const App: React.FC = () => (
       <Route path="/services/retail-security"   element={<RetailSecurity />} />
       <Route path="/services/access-control"    element={<AccessControl />} />
       <Route path="/services/corporate-security" element={<CorporateSecurity />} />
+      <Route path="/services/construction-site-security" element={<ConstructionSecurity />} />
       <Route path="/areas/manchester" element={<Manchester />} />
       <Route path="/areas/oldham"     element={<Oldham />} />
       <Route path="/areas/rochdale"   element={<Rochdale />} />

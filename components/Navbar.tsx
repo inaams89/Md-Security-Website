@@ -8,6 +8,7 @@ const SERVICES = [
   { label: 'Retail Security', path: '/services/retail-security' },
   { label: 'Access Control', path: '/services/access-control' },
   { label: 'Corporate Security', path: '/services/corporate-security' },
+  { label: 'Construction Security', path: '/services/construction-site-security' },
 ];
 
 const AREAS = [
