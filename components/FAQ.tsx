@@ -14,8 +14,8 @@ const faqs = [
     a: 'For standard deployments we can typically have vetted, uniformed officers on site within 48 hours. For urgent or emergency requirements, contact us directly on 07585690268 and we\'ll do everything we can to assist as quickly as possible.'
   },
   {
-    q: 'Do you provide security for one-off events?',
-    a: 'Absolutely. We cover everything from one-night events and private parties to multi-day festivals and sporting events. There\'s no minimum contract period for event security — just tell us your date, location and requirements.'
+    q: 'Do you provide security for construction sites?',
+    a: 'Yes. We provide gatehouse and access control, out-of-hours guarding and patrols for construction sites across Oldham, Manchester and the North West. Tell us about your site and we will recommend the right level of cover.'
   },
   {
     q: 'How do your guards differ from generic agency staff?',

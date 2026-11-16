@@ -34,10 +34,10 @@ const Hero: React.FC = () => {
             <span className="text-md-red hero-glow">Security Partner</span>
           </h1>
           <p className="text-sm md:text-lg font-medium mb-4 opacity-80 max-w-2xl mx-auto leading-relaxed text-gray-200">
-            Professional door supervisors, manned guarding and event security across Oldham, Manchester and the North West.
+            Professional manned guarding, access control and retail security across Oldham, Manchester and the North West.
           </p>
           <p className="text-[11px] font-bold uppercase tracking-[0.3em] text-gray-400 mb-10">
-            Door Supervision · Manned Guarding · Event Security · Retail Security
+            Manned Guarding · Access Control · Retail Security · Construction Security
           </p>
 
           <div className="flex flex-wrap items-center justify-center gap-4">

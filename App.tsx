@@ -19,9 +19,7 @@ import Challenges from './components/Challenges';
 import FAQ from './components/FAQ';
 import Contact from './components/Contact';
 
-import DoorSupervision from './pages/services/DoorSupervision';
 import MannedGuarding from './pages/services/MannedGuarding';
-import EventSecurity from './pages/services/EventSecurity';
 import RetailSecurity from './pages/services/RetailSecurity';
 import AccessControl from './pages/services/AccessControl';
 import CorporateSecurity from './pages/services/CorporateSecurity';
@@ -76,9 +74,7 @@ const App: React.FC = () => (
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<HomePage />} />
-      <Route path="/services/door-supervision"  element={<DoorSupervision />} />
       <Route path="/services/manned-guarding"   element={<MannedGuarding />} />
-      <Route path="/services/event-security"    element={<EventSecurity />} />
       <Route path="/services/retail-security"   element={<RetailSecurity />} />
       <Route path="/services/access-control"    element={<AccessControl />} />
       <Route path="/services/corporate-security" element={<CorporateSecurity />} />

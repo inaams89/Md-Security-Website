@@ -2,9 +2,7 @@ import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 
 const SERVICES = [
-  { label: 'Door Supervision', path: '/services/door-supervision' },
   { label: 'Manned Guarding', path: '/services/manned-guarding' },
-  { label: 'Event Security', path: '/services/event-security' },
   { label: 'Retail Security', path: '/services/retail-security' },
   { label: 'Access Control', path: '/services/access-control' },
   { label: 'Corporate Security', path: '/services/corporate-security' },

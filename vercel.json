@@ -1,4 +1,16 @@
 {
+  "redirects": [
+    {
+      "source": "/services/door-supervision",
+      "destination": "/services/manned-guarding",
+      "permanent": true
+    },
+    {
+      "source": "/services/event-security",
+      "destination": "/services/manned-guarding",
+      "permanent": true
+    }
+  ],
   "rewrites": [
     {
       "source": "/(.*)",

@@ -57,7 +57,7 @@ const LocationPageTemplate: React.FC<LocationPageProps> = ({
             Security Services <br /><span className="text-md-red">In {city}</span>
           </h1>
           <p className="text-gray-300 text-base max-w-xl leading-relaxed mb-10">
-            Professional SIA-licensed security guards, door supervisors and manned guarding solutions across {city}, {county}.
+            Professional SIA-licensed security guards, manned guarding and access control solutions across {city}, {county}.
           </p>
           <Link
             to="/#contact"

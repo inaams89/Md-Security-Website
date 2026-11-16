@@ -24,7 +24,7 @@ const About: React.FC = () => {
                 Founded in 2022, MD Security Services is a Oldham-based security company providing professional, SIA-licensed guards across Manchester and the wider North West. We're local — headquartered in Chadderton — which means faster response times and genuine knowledge of the areas we protect.
               </p>
               <p>
-                We work with venue owners, retailers, construction companies, event organisers and corporate businesses to deliver tailored security solutions. Every deployment is staffed by vetted, uniformed officers who take pride in their professionalism and represent your business well.
+                We work with retailers, construction companies, warehouses, schools and corporate businesses to deliver tailored security solutions. Every deployment is staffed by vetted, uniformed officers who take pride in their professionalism and represent your business well.
               </p>
             </div>
 

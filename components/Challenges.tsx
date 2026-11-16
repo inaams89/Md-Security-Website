@@ -13,7 +13,7 @@ const challenges = [
   },
   {
     title: 'Anti-Social Behaviour',
-    desc: 'Anti-social behaviour incidents have surged across Greater Manchester, with pubs, venues and retail parks among the worst affected.',
+    desc: 'Anti-social behaviour incidents have surged across Greater Manchester, with retail parks and commercial premises among the worst affected.',
     stat: '↑ 35%'
   }
 ];

@@ -188,10 +188,9 @@ const Contact: React.FC = () => {
                   <label className="block text-[10px] font-black uppercase mb-1.5 tracking-widest text-slate-700">Service Required</label>
                   <select name="service" className="w-full bg-slate-50 text-slate-900 px-4 py-3 rounded-lg border border-gray-200 focus:border-md-red outline-none transition-colors text-sm cursor-pointer">
                     <option value="">Select a Service</option>
-                    <option>Door Supervision</option>
                     <option>Manned Guarding</option>
-                    <option>Event Security</option>
                     <option>Retail Security</option>
+                    <option>Construction Site Security</option>
                     <option>Access Control</option>
                     <option>Corporate Security</option>
                     <option>Other</option>
@@ -237,9 +236,7 @@ const Contact: React.FC = () => {
                   <select name="position" className="w-full bg-slate-50 text-slate-900 px-4 py-3 rounded-lg border border-gray-200 focus:border-md-red outline-none transition-colors text-sm cursor-pointer">
                     <option value="">Select Position</option>
                     <option>Security Officer</option>
-                    <option>Door Supervisor</option>
                     <option>Retail Security Officer</option>
-                    <option>Event Security Officer</option>
                   </select>
                 </div>
                 <div>

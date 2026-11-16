@@ -1,12 +1,11 @@
 import React from 'react';
 
 const industries = [
-  { name: 'Hospitality & Nightlife', icon: 'fa-martini-glass', desc: 'Pubs, bars, clubs and restaurants across Manchester and Oldham.' },
+  { name: 'Warehouses & Industrial', icon: 'fa-warehouse', desc: 'Yards, distribution units and industrial estates needing access control and out-of-hours cover.' },
   { name: 'Retail & Shopping', icon: 'fa-store', desc: 'High street shops, supermarkets, shopping centres and retail parks.' },
   { name: 'Construction & Development', icon: 'fa-helmet-safety', desc: 'Site security, access control and plant protection for construction projects.' },
   { name: 'Corporate & Office', icon: 'fa-building-columns', desc: 'Reception security, access management and out-of-hours cover for offices.' },
-  { name: 'Events & Festivals', icon: 'fa-calendar-star', desc: 'Concerts, sporting events, private functions and public festivals.' },
-  { name: 'Healthcare & Education', icon: 'fa-hospital', desc: 'Sensitive environments requiring a calm, professional security presence.' },
+  { name: 'Schools & Education', icon: 'fa-school', desc: 'A calm, professional security presence for schools and education sites.' },
 ];
 
 const Industries: React.FC = () => {

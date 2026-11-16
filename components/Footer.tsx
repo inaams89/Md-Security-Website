@@ -15,7 +15,7 @@ const Footer: React.FC = () => {
               <img src="/assets/md_logo.png" alt="MD Security Services" loading="lazy" className="h-12 w-auto object-contain brightness-0 invert" />
             </Link>
             <p className="text-gray-400 text-sm leading-relaxed">
-              Professional security guards, door supervisors and event security across Oldham, Manchester and the North West.
+              Professional security guards and manned guarding across Oldham, Manchester and the North West.
             </p>
             <div className="flex items-center gap-2 text-[10px] text-gray-500 font-bold uppercase tracking-widest">
               <i className="fa-solid fa-shield-halved text-md-red"></i> Licensed · DBS Checked · Insured
@@ -73,9 +73,7 @@ const Footer: React.FC = () => {
             </h4>
             <ul className="space-y-3">
               {[
-                { label: 'Door Supervision', path: '/services/door-supervision' },
                 { label: 'Manned Guarding', path: '/services/manned-guarding' },
-                { label: 'Event Security', path: '/services/event-security' },
                 { label: 'Retail Security', path: '/services/retail-security' },
                 { label: 'Access Control', path: '/services/access-control' },
                 { label: 'Construction Security', path: '/services/construction-site-security' },

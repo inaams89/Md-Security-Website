@@ -68,22 +68,10 @@ const constructionFaqs = JSON.parse(
 
 const routes = [
   {
-    route: '/services/door-supervision',
-    title: 'Door Supervisors Manchester & Oldham | MD Security Services',
-    description: 'licensed door supervisors for pubs, clubs, events and venues across Manchester, Oldham and the North West. Available 24/7. Call MD Security Services on 07585690268.',
-    schema: (url, description) => serviceSchema({ url, serviceType: 'Door Supervision', description }),
-  },
-  {
     route: '/services/manned-guarding',
     title: 'Manned Guarding Manchester & Oldham | 24/7 SIA Security',
     description: 'Professional manned guarding for sites, warehouses & commercial premises in Manchester, Oldham & the North West. Licensed, insured, 24/7. Call 07585690268.',
     schema: (url, description) => serviceSchema({ url, serviceType: 'Manned Guarding', description }),
-  },
-  {
-    route: '/services/event-security',
-    title: 'Event Security Manchester & Oldham | SIA-Licensed Guards',
-    description: 'SIA-licensed event security for concerts, festivals & private functions in Manchester, Oldham & the North West. Insured, experienced, 24/7. Call 07585690268.',
-    schema: (url, description) => serviceSchema({ url, serviceType: 'Event Security', description }),
   },
   {
     route: '/services/retail-security',
@@ -123,31 +111,31 @@ const routes = [
   {
     route: '/areas/manchester',
     title: 'Security Guards Manchester | MD Security Services',
-    description: 'Professional security guards, door supervisors and manned guarding in Manchester. Covering the city centre, Spinningfields, Salford Quays and all surrounding areas. Call 07585690268.',
+    description: 'Professional security guards, manned guarding and access control in Manchester. Covering the city centre, Spinningfields, Salford Quays and all surrounding areas. Call 07585690268.',
     schema: (url, description) => areaSchema({ url, city: 'Manchester', description }),
   },
   {
     route: '/areas/oldham',
     title: 'Security Services Oldham | 24/7 SIA-Licensed Guards',
-    description: 'Oldham-based SIA-licensed security guards, door supervisors & manned guarding. Fast response, fully insured, available 24/7. Call 07585690268 for a free quote.',
+    description: 'Oldham-based SIA-licensed security guards, manned guarding & access control. Fast response, fully insured, available 24/7. Call 07585690268 for a free quote.',
     schema: (url, description) => areaSchema({ url, city: 'Oldham', description }),
   },
   {
     route: '/areas/rochdale',
     title: 'Security Guards Rochdale | MD Security Services',
-    description: 'Professional security guards, door supervisors and manned guarding in Rochdale. Covering Rochdale town centre, Heywood, Middleton and surrounding areas. Call 07585690268.',
+    description: 'Professional security guards, manned guarding and access control in Rochdale. Covering Rochdale town centre, Heywood, Middleton and surrounding areas. Call 07585690268.',
     schema: (url, description) => areaSchema({ url, city: 'Rochdale', description }),
   },
   {
     route: '/areas/bury',
     title: 'Security Guards Bury | MD Security Services',
-    description: 'Professional security guards, door supervisors and manned guarding in Bury. Covering Bury town centre, Radcliffe, Prestwich, Whitefield and surrounding areas. Call 07585690268.',
+    description: 'Professional security guards, manned guarding and access control in Bury. Covering Bury town centre, Radcliffe, Prestwich, Whitefield and surrounding areas. Call 07585690268.',
     schema: (url, description) => areaSchema({ url, city: 'Bury', description }),
   },
   {
     route: '/areas/salford',
     title: 'Security Guards Salford | MD Security Services',
-    description: 'Professional security guards, door supervisors and corporate security in Salford. Covering Salford Quays, MediaCityUK, Eccles and the wider city. Call 07585690268.',
+    description: 'Professional security guards, manned guarding and corporate security in Salford. Covering Salford Quays, MediaCityUK, Eccles and the wider city. Call 07585690268.',
     schema: (url, description) => areaSchema({ url, city: 'Salford', description }),
   },
   {

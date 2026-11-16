@@ -2,12 +2,6 @@ import React from 'react';
 
 const services = [
   {
-    title: 'Door Supervision',
-    desc: 'Our highly trained and professional door supervisors are skilled at monitoring entrances and exits, managing crowds, and diffusing potential conflicts. With MD Security Services, you can trust that your establishment is in safe hands, allowing you to focus on running your business smoothly.',
-    image: '/assets/req-doorsuper.png',
-    icon: 'fa-door-open'
-  },
-  {
     title: 'Static Manned Guarding',
     desc: 'Our static manned guarding solutions provide a dependable layer of protection for your premises. Our highly trained security guards are equipped to handle any security challenges, ensuring the safety and security of your property and assets.',
     image: '/assets/static.png',
@@ -18,12 +12,6 @@ const services = [
     desc: 'Manage entry points efficiently with our access control systems, limiting unauthorized access and enhancing overall security.',
     image: '/assets/access-controlgatekeeping-amp-admin-1593759845-0.jpg',
     icon: 'fa-key'
-  },
-  {
-    title: 'Event Security',
-    desc: 'Ensure the safety of your event with our professional event security team, trained to handle crowds and maintain a secure environment.',
-    image: '/assets/event-security.jpeg',
-    icon: 'fa-calendar-check'
   }
 ];
 
